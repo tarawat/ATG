@@ -1,0 +1,100 @@
+<%- include('partials/header') %>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <span class="navbar-brand stylus-span" href="#">Stylus</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navcollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <a class="btn btn-outline-success btn-lg" href="/signup" role="button">Signup</a>
+      <a class="btn btn-outline-light btn-lg" href="/login" role="button">Login</a>
+    </form>
+  </div>
+</nav>
+<div class="img-fluid">
+  <img class="laptop-img" src="laptop.jpg" alt="">
+  <a href="/join" role="button" class=" join-btn btn btn btn-primary btn-lg">Join Us</a>
+  <h1 class="top-left">Computer Engineering</h1>
+  <h4 class="top-left-2">472,309 Computer Engineers<br /> Follows This</h4>
+</div>
+<div class="container container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand post-span" href="#">Posts</span>
+    <div class="dropdown navbar-nav ml-auto">
+      <button class="btn btn-dark dropdown-toggle btn-lg" type="button" id="dropdown" data-toggle="dropdown">
+        Filter :
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Action</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card-tab">
+    <div class="card-deck mb-3 text-center">
+      <div class="col-lg-12 col-md-12">
+        <div class="card-column card ">
+          <img src="ipl.jpg" alt="">
+          <div class="card-body text-left">
+            <h4>✍️Article</h4>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <div class="row">
+              <div class="like like-share col-lg-4 col-md-4 col-sm-4">
+                <i class="fas fa-heart fa-3x" role="button""></i>
+              </div>
+              <div class=" view like-share col-lg-4 col-md-4 col-sm-4">
+                  <i class="far fa-eye fa-3x"></i>
+                  <p class="like-share">1.5k views</p>
+              </div>
+              <div class="share like-share col-lg-4 col-md-4 col-sm-4">
+                <i class="fas fa-share-alt fa-3x" role="button"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-column card ">
+      <img src="laptop.jpg" alt="">
+      <div class="card-body text-left">
+        <h4>✍️Article</h4>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+        <div class="row">
+          <div class="like like-share col-lg-4 col-md-4 col-sm-4">
+            <i class="fas fa-heart fa-3x" role="button""></i>
+          </div>
+          <div class=" view like-share col-lg-4 col-md-4 col-sm-4">
+              <i class="far fa-eye fa-3x"></i>
+              <p class="like-share">1.5k views</p>
+          </div>
+          <div class="share like-share col-lg-4 col-md-4 col-sm-4">
+            <i class="fas fa-share-alt fa-3x" role="button"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+    <%- include('partials/footer') %>
